@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { GetStaticProps, GetStaticPaths } from 'next';
-import IsacaHeader from '../../components/IsacaHeader';
 import MyIsacaMain from '../../components/MyIsacaMain';
 import StaticLayout from '../../StaticLayout';
 

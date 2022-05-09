@@ -1,4 +1,4 @@
-import { useState, useEffect, memo } from 'react';
+import { useEffect, memo } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import deepEqual from 'deep-equal';

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 
 const IsacaHeader = ({ id }: { id: any }) => {
   const [activeLink, setActiveLink] = useState('');
@@ -12,16 +12,16 @@ const IsacaHeader = ({ id }: { id: any }) => {
     console.log('active', activeLink);
   }, [activeLink]);
 
-  const fetchInitialData = async () => {
-    try {
-      const response = await axios.get(
-        'https://cm-sit.isaca.org/api/myisaca/jssheader?isacaId=467939'
-      );
-      console.log('response', response);
-    } catch (err) {
-      console.error(err);
-    }
-  };
+  // const fetchInitialData = async () => {
+  //   try {
+  //     const response = await axios.get(
+  //       'https://cm-sit.isaca.org/api/myisaca/jssheader?isacaId=467939'
+  //     );
+  //     console.log('response', response);
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
 
   return (
     <div style={styles.main}>
