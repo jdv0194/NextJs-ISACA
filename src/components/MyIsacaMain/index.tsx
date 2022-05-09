@@ -85,7 +85,7 @@ const styles = {
     alignItems: 'center',
     height: '106px',
     backgroundColor: '#e2e5e6',
-  },
+  } as React.CSSProperties,
   linkContainer: {
     textAlign: 'center',
     display: 'flex',
@@ -93,7 +93,7 @@ const styles = {
     justifyContent: 'center',
     height: '100%',
     width: '260px',
-  },
+  } as React.CSSProperties,
   activeLinkContainer: {
     textAlign: 'center',
     display: 'flex',
@@ -102,19 +102,19 @@ const styles = {
     height: '100%',
     width: '260px',
     borderBottom: '5px solid #a30046',
-  },
+  } as React.CSSProperties,
   link: {
     textDecoration: 'none',
     color: '#a30046',
     fontSize: '1.25em',
-  },
+  } as React.CSSProperties,
   activeLink: {
     textDecoration: 'none',
     color: 'black',
     cursor: 'default',
     pointerEvents: 'none',
     fontSize: '1.25em',
-  },
+  } as React.CSSProperties,
 };
 
 export default IsacaHeader;
