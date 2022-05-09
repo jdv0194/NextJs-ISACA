@@ -24,7 +24,7 @@ const MyIsacaUser = (props: any) => {
       </div>
       <div className={styles.certifications}>
         <p className={styles['certifications-header']}>Certification</p>
-        {props.userSummary?.Categories[0].Details.map((el: any, key: any) => {
+        {props.userSummary?.Categories[0].Details.map((el: any) => {
           return (
             <>
               <div key={Math.random()} className={styles['certifications-container']}>
@@ -35,7 +35,7 @@ const MyIsacaUser = (props: any) => {
                     <p className={styles['cert-subtitle']}>{el.Through}</p>
                   </div>
                 </div>
-                {el.Balances.map((balance: any, key: any) => {
+                {el.Balances.map((balance: any) => {
                   return (
                     <div key={Math.random()} className={styles['cert-balance-container']}>
                       <p className={styles['cert-key']}>{balance.Key}:</p>
