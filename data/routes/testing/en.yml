@@ -1,0 +1,15 @@
+fields:
+  pageTitle: Testing | Sitecore JSS
+placeholders:
+  jss-main:
+  - componentName: ContentBlock
+    fields:
+      heading: Testing Example
+      content: |
+        <p>This is an example of how you can use placeholders and components</p>
+  - componentName: IsacaHeader
+  - componentName: ContentBlock
+    fields:
+      heading: Additional Content
+      content: |
+        <p>Components stack in the order they are defined in placeholders.  You can add placeholders to layouts and components and you can nest placeholders as well.  You can also have placeholders with dynamic keys (like a placeholder for each column that is defined in a grid).</p>

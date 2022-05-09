@@ -1,0 +1,180 @@
+.main-container {
+  display: flex;
+  background-color: #edeef0;
+  height: 500px;
+  width: 100%;
+}
+
+.user-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  margin-bottom: 1em;
+  background-color: #e21b12;
+  color: #fff;
+  border: 1px solid #e21b12;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  box-shadow: inset 0 -0.1em 0 0 rgba(0, 0, 0, 0.5), inset 0 0 1em 2em rgba(0, 0, 0, 0.25);
+}
+
+.btn-tertiary {
+  font-family: 'Roboto Condensed', Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.3em;
+  padding: 0.4em 1em;
+  margin-bottom: 1em;
+  opacity: 0.75;
+  cursor: pointer;
+  transition: 0.25s ease opacity;
+  background-color: #fff;
+  border: 2px solid #5c6670;
+  color: #5c6670;
+}
+
+.btn-tertiary:focus,
+.btn-tertiary:hover {
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.25s ease all;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.certifications {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.certifications-header {
+  color: #5c6670;
+  text-align: left;
+  margin: 0;
+}
+
+.certifications-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.cert-title-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 0 10px;
+}
+
+.cert-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.cert-title {
+  font-size: 1.375rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.375rem;
+  margin: 0;
+}
+
+.cert-image {
+  margin-right: 15px;
+}
+
+.cert-subtitle {
+  color: #323e48;
+  line-height: 1.125rem;
+}
+
+.cert-balance-container {
+  display: flex;
+}
+
+.cert-key {
+  color: #5c6670;
+  margin-right: 2em;
+}
+.cert-value {
+  font-size: 1.125rem;
+  color: #000;
+}
+
+.cert-invoice-summary-total {
+  margin-top: 20px;
+  border-top: 2px solid #b7babb;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+}
+
+.btn-invoice-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 1em;
+}
+.btn-invoice-container button {
+  margin-right: 1em;
+}
+
+.cert-invoice-summary-message {
+  display: flex;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #5c6670;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
