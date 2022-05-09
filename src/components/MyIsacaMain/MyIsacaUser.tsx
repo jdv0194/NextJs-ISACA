@@ -24,10 +24,10 @@ const MyIsacaUser = (props: any) => {
       </div>
       <div className={styles.certifications}>
         <p className={styles['certifications-header']}>Certification</p>
-        {props.userSummary?.Categories[0].Details.map((el: any) => {
+        {props.userSummary?.Categories[0].Details.map((el: any, key: any) => {
           return (
             <>
-              <div className={styles['certifications-container']}>
+              <div key={Math.random()} className={styles['certifications-container']}>
                 <div className={styles['cert-img-container']}>
                   <Image width={40} height={40} src={`https://sf-sit.isaca.org${el.LogoImage}`} />
                   <div className={styles['cert-title-container']}>
@@ -35,9 +35,9 @@ const MyIsacaUser = (props: any) => {
                     <p className={styles['cert-subtitle']}>{el.Through}</p>
                   </div>
                 </div>
-                {el.Balances.map((balance: any) => {
+                {el.Balances.map((balance: any, key: any) => {
                   return (
-                    <div className={styles['cert-balance-container']}>
+                    <div key={Math.random()} className={styles['cert-balance-container']}>
                       <p className={styles['cert-key']}>{balance.Key}:</p>
                       <span className={styles['cert-value']}>{balance.Value}</span>
                     </div>

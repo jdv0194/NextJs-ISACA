@@ -31,7 +31,7 @@ const nextConfig = {
   },
 
   // Enable React Strict Mode
-  reactStrictMode: true,
+  reactStrictMode: false,
 
   async rewrites() {
     if (isDisconnected) {
