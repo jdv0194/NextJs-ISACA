@@ -15,7 +15,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "strictFunctionTypes": false,
     "forceConsistentCasingInFileNames": true,
     "downlevelIteration": true,
@@ -27,7 +27,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true
   },

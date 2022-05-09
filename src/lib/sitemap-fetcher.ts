@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+
 import { GraphQLSitemapService, StaticPath } from '@sitecore-jss/sitecore-jss-nextjs';
 import { DisconnectedSitemapService, ManifestInstance } from '@sitecore-jss/sitecore-jss-nextjs';
 import { GetStaticPathsContext } from 'next';
