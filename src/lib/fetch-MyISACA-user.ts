@@ -1,5 +1,5 @@
 import axios from "axios"
-const baseURL = "https://cm-sit.isaca.org"
+const baseURL = process.env.ISACA_URL
 
 export async function loadUser() {
     // Call an external API endpoint to get user
